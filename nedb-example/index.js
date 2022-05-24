@@ -9,7 +9,7 @@ const database = new nedb({ filename: 'database.db', autoload: true });
  */
 
 // database.insert({ name: 'Christoffer', age: 33 });
-// database.insert({ name: 'Ada', age: 30 });
+//database.insert({ name: 'Ada', age: 30, knowFor: 'First programmer' });
 
 async function getPerson() {
     // Hämta objektet vars namn är Ada
@@ -25,6 +25,6 @@ getPerson();
 // Först väljer vi vilket objekt vi vill uppdatera och sen vad vi ska uppdatera
 
 // database.update({ name: 'Ada' }, { $set: { knownFor: 'First programmer' }});
-// database.update({ name: 'Ada' }, { $set: { age: 31 }});
+database.update({ name: 'Ada' }, { $set: { age: 30, name: 'Ada Lovelace' }});
 
-database.remove({ name: 'Ada' });
+// database.remove({ name: 'Ada' });

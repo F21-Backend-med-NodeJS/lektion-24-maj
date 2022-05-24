@@ -14,9 +14,18 @@
     * Hämta alla personer som är över 30. Tips! Kolla in operatorer som `$gt` under `find` i dokumentationen.
     * Byt förnamn och ålder på ett av namnen.
     * Ta bort en valfri person från databasen (hela objektet).
-    * Level up: Lägg till ett objekt med en array alltså `{ names: [] }` och pusha sedan in namn i den arrayen. 
+    * Level up: Lägg till ett objekt med en array alltså `{ names: [] }` och pusha sedan in namn i den arrayen.
 
+#### NeDB med API-övningar
 
+Ändra om Sinus webshop och Todo API så de nu använder sig av NeDB för att spara och hämta data.
+
+#### Login page
+
+I dagens kodexempel (`login-page-nedb-example`) så lägg två API-endpoints där den ena är för att 
+hämta en användares e-postadress. Det är enbart e-posten som ska returneras till frontend.
+
+Den andra endpoint:en ska ta bort ett användarkonto.
 
 ## Artiklar
 
