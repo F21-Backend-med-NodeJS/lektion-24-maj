@@ -14,6 +14,7 @@
     * Hämta alla personer som är över 30. Tips! Kolla in operatorer som `$gt` under `find` i dokumentationen.
     * Byt förnamn och ålder på ett av namnen.
     * Ta bort en valfri person från databasen (hela objektet).
+    * Level up: Lägg till ett objekt med en array alltså `{ names: [] }` och pusha sedan in namn i den arrayen. 
 
 
 
