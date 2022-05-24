@@ -24,3 +24,5 @@ NeDB: https://github.com/louischatriot/nedb
 ## Videor
 
 ## Inspelningar
+
+https://funet-my.sharepoint.com/:f:/g/personal/christoffer_wallenberg_folkuniversitetet_se/EjDNRf_npkJHouAjM9bboMUBNDSkiJsmN4bU95rtu5V_iA?e=MsCGep
